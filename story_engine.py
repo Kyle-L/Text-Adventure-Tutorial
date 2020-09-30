@@ -2,7 +2,7 @@ import sys, os
 import time
 import random
 
-def slow_type(text: str):
+def type(text: str):
     """Slowly types a line to the console.
 
     Args:
@@ -26,10 +26,11 @@ def display_page_text(lines: list):
     """
     for line in lines:
         # Slowly types the line.
-       slow_type(line + os.linesep)
+       type(line + os.linesep)
 
        # Randomly waits for a time between 0s and 1s.
        time.sleep(0.1)
+    print()
 
 
 def get_input(valid_input: list) -> str:
@@ -64,6 +65,7 @@ def get_response(options: list) -> int:
     for index, option in enumerate(options): 
         print(str(index) + f'.) "{option[0]}"') 
     
+    print()
     print("Please choose an option: ", end="")
 
     valid_inputs = [str(num) for num in range(len(options))]
