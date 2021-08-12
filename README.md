@@ -795,10 +795,6 @@ The source code is licensed under a [MIT License](https://github.com/Kyle-L/Text
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Kyle-L/Text-Adventure-Tutorial/LICENSE)
 
-This project is available on [Github](https://github.com/Kyle-L/Text-Adventure-Tutorial).
-
-[![GitHub link](https://img.shields.io/badge/Github-gray?style=flat&logo=github)](https://github.com/Kyle-L/Text-Adventure-Tutorial)
-
 Additionally, this project can be run on [Repl.it](https://repl.it/github/Kyle-L/Text-Adventure-Tutorial).
 
 [![Run on Repl.it](https://repl.it/badge/github/Kyle-L/Text-Adventure-Tutorial)](https://repl.it/github/Kyle-L/Text-Adventure-Tutorial)
